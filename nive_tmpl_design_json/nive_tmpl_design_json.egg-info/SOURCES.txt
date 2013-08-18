@@ -1,0 +1,8 @@
+setup.py
+nive_tmpl_design_json/__init__.py
+nive_tmpl_design_json.egg-info/PKG-INFO
+nive_tmpl_design_json.egg-info/SOURCES.txt
+nive_tmpl_design_json.egg-info/dependency_links.txt
+nive_tmpl_design_json.egg-info/not-zip-safe
+nive_tmpl_design_json.egg-info/requires.txt
+nive_tmpl_design_json.egg-info/top_level.txt

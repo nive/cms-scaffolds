@@ -1,0 +1,20 @@
+<div class="pageelement peArticle" id="nive-element${context.GetID()}"
+     tal:define="link view.ResolveLink(context.data.link)">
+
+<div class="teaser">
+<img tal:condition="context.files.get('image')"
+     tal:attributes="src view.FileUrl('image', context); title context.GetTitle()" />
+<div class="itext">
+<h3 tal:content="structure context.GetTitle()"/>
+<div class="subline">${context.subline()} <a href="${view.FolderUrl()}astext">(as text)</a></div>
+
+<p tal:condition="context.data.textblock" tal:replace="structure context.data.textblock"></p>
+<a tal:condition="link" tal:attributes="href link">&gt; more</a>
+
+<ul class="related">
+<li tal:repeat="article context.related()">${article/title}</li>
+</ul>
+</div>
+</div>
+
+</div>

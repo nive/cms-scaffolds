@@ -1,0 +1,28 @@
+
+{
+	"type": "nive.definitions.ObjectConf",
+	
+    "id": "article",
+    "name": "Article",
+    "dbparam": "article",
+    "context": "nive.components.objects.base.PageElementBase",
+    "template": "nive_tmpl_element_json:article.pt",
+    "selectTag": 20,
+    "icon": "nive.cms.cmsview:static/images/types/element.png",
+    "description": "",
+
+	"data": [
+	    { "type": "nive.definitions.FieldConf", 
+	      "id": "textblock", "datatype": "htext", "size": 10000, "default": "", "fulltext": 1, "name": "Text", "description": ""},
+	    { "type": "nive.definitions.FieldConf", 
+	      "id": "image", "datatype": "file", "size": 0, "default": "", "name": "Imagefile", "description": ""},
+	    { "type": "nive.definitions.FieldConf",
+	      "id": "link", "datatype": "url", "size": 255, "default": "", "name": "Link", "description": ""}
+	],
+
+	"forms": {
+	    "create": {"fields":["title", "textblock", "image"]}, 
+	    "edit":   {"fields":["title", "textblock", "image"]}
+	}
+}
+

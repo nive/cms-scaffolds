@@ -1,0 +1,10 @@
+
+{
+	"type": "nive.definitions.ViewModuleConf",
+    "copyFrom": "nive.cms.design.view",
+    
+    "static": "nive_tmpl_design_json:static",
+    "staticName": "tmpldesign",
+    "templates": "nive_tmpl_design_json:templates"
+}
+
