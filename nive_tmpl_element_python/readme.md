@@ -1,6 +1,7 @@
-Poolyx element scaffold and example: Python configuration
--------------------------------------------------------
-This example defines a simple article element to be used as Poolyx
+
+# Nive page element scaffold and example: Json configuration
+
+This example defines a simple article element to be used as Nive
 plugin. All configuration is done using in the module __init__.py.
 
 Including:
