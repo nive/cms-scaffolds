@@ -1,1 +1,0 @@
-nive_tmpl_design_python

@@ -1,9 +1,0 @@
-setup.py
-nive_tmpl_design_python/__init__.py
-nive_tmpl_design_python/tests.py
-nive_tmpl_design_python.egg-info/PKG-INFO
-nive_tmpl_design_python.egg-info/SOURCES.txt
-nive_tmpl_design_python.egg-info/dependency_links.txt
-nive_tmpl_design_python.egg-info/not-zip-safe
-nive_tmpl_design_python.egg-info/requires.txt
-nive_tmpl_design_python.egg-info/top_level.txt
