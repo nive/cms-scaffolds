@@ -8,7 +8,7 @@
     "context": "nive.components.objects.base.PageElementBase",
     "template": "nive_tmpl_element_json:article.pt",
     "selectTag": 20,
-    "icon": "nive.cms.cmsview:static/images/types/element.png",
+    "icon": "nive_cms.cmsview:static/images/types/element.png",
     "description": "",
 
 	"data": [

@@ -27,7 +27,7 @@ For a default scaffold installation go to `__init__.py` of your website
 and add the following line to the configuration 
 ``website.modules.append("my_element:configuration.json")`` e.g. ::
 
-    website = AppConf("nive.cms.app",
+    website = AppConf("nive_cms.app",
         title=u"My website", 
         id="website",
         ...

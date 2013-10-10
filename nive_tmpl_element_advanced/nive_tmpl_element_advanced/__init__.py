@@ -1,7 +1,7 @@
 
 from nive.definitions import ObjectConf
-from nive.components.objects.base import PageElementBase
 from nive.utils.utils import ConvertHTMLToText
+from nive_cms.baseobjects import PageElementBase
 
 
 # object functionality ----------------------------------------------------------
@@ -35,7 +35,7 @@ configuration = ObjectConf(
     context=MyArticle,
     template="nive_tmpl_element_advanced:article.pt",
     selectTag=20,
-    icon = "nive.cms.cmsview:static/images/types/element.png",
+    icon = "nive_cms.cmsview:static/images/types/element.png",
     description=""
 )
 

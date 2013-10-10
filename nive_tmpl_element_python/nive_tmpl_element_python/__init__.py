@@ -5,10 +5,10 @@ configuration = ObjectConf(
     id="article",
     name="Article",
     dbparam="article",
-    context="nive.components.objects.base.PageElementBase",
+    context="nive_cms.baseobjects.PageElementBase",
     template="nive_tmpl_element_python:article.pt",
     selectTag=20,
-    icon="nive.cms.cmsview:static/images/types/element.png",
+    icon="nive_cms.cmsview:static/images/types/element.png",
     description=""
 )
 

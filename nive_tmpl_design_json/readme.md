@@ -27,7 +27,7 @@ remove the original design e.g. ::
     )
     website.modules.append("my_design_module")
     # -> remove these lines:
-    #design = ViewModuleConf("nive.cms.design.view",
+    #design = ViewModuleConf("nive_cms.design.view",
     #    templates="mywebsite:templates"
     #)
     #website.modules.append(design)

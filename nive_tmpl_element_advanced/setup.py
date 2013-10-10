@@ -14,7 +14,7 @@ except:
     CHANGES = ''
 
 requires = [
-    'nive'
+    'nive_cms'
 ]
 
 setupkw = dict(
