@@ -6,12 +6,8 @@
       <span i18n:translate="">This page is redirected in view mode:</span> 
       <a href="${context.IsLinked()}" target="_blank">${context.IsLinked()}</a> 
     </div>
-    <div class="row">
     <tal:block tal:repeat="el context.GetPageElements(user=view.User(), checkPermissions=True)">
-      <span tal:condition="el.GetTypeID()=='box'" tal:replace="structure view.RenderView(el, secure=True, raiseUnauthorized=False)"/>
-      <div  tal:condition="el.GetTypeID()!='box'" tal:content="structure view.RenderView(el, secure=True, raiseUnauthorized=False)"
-            class="span12"></div>
+      <span tal:replace="structure view.RenderView(el, secure=True, raiseUnauthorized=False)"/>
     </tal:block>
-    </div>
   </tal:block>   
 </tal:block>
