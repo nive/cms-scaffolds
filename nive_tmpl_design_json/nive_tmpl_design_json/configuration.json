@@ -1,7 +1,7 @@
 
 {
 	"type": "nive.definitions.ViewModuleConf",
-    "copyFrom": "nive_cms.design.view",
+    "copyFrom": "nive_cms_design_bs3",
     
     "static": "nive_tmpl_design_json:static",
     "staticName": "tmpldesign",

@@ -14,12 +14,13 @@ except:
     CHANGES = ''
 
 requires = [
-    'nive_cms'
+    'nive_cms',
+    'nive_cms_design_bs3'
 ]
 
 setupkw = dict(
       name='nive_tmpl_design_python',
-      version='0.1',
+      version='0.2',
       description='',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
